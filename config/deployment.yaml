@@ -13,7 +13,7 @@ spec:
       serviceAccountName: ko-builder
       containers:
       - name: echo-controller
-        image: github.com/n3wscott/kopond/cmd/echo
+        image: github.com/feloy/kopond/cmd/echo
         args:
         - "-logtostderr=true"
         - "-stderrthreshold=INFO"
