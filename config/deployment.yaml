@@ -2,7 +2,6 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: echo-controller
-  namespace: default
 spec:
   replicas: 1
   template:
